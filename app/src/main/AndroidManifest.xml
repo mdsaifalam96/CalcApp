@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="saif.l.calcapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/calculator_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="saif.l.calcapp.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="saif.l.calcapp.StandardCal"
+            android:label="@string/title_activity_standard_cal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="saif.l.calcapp.ScientificCal"
+            android:label="@string/title_activity_scientific_cal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="saif.l.calcapp.UnitCoverter"
+            android:label="@string/title_activity_unit_coverter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="saif.l.calcapp.UnitArea"
+            android:label="@string/title_activity_unit_area"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="saif.l.calcapp.UnitLength"
+            android:label="@string/title_activity_unit_length"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="saif.l.calcapp.UnitWeight"
+            android:label="@string/title_activity_unit_weight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="saif.l.calcapp.UnitTemperature"
+            android:label="@string/title_activity_unit_temperature"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="saif.l.calcapp.History"
+            android:label="@string/title_activity_history"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
